@@ -1,2 +1,2 @@
 # ponto-inteligente
-API Ponto Inteligente
+Api de sistema de ponto inteligente
