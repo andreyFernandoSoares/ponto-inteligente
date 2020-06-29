@@ -19,14 +19,11 @@ import com.andrey.ponto.inteligente.api.service.EmpresaService;
 @RequestMapping("/api/empresas")
 @CrossOrigin(origins = "*")
 public class EmpresaController {
-
-	
 	@Autowired
 	private EmpresaService empresaService;
 	
 	public EmpresaController() {
 	}
-
 
 	@GetMapping(value = "/cnpj/{cnpj}")
 	public ResponseEntity<Response<EmpresaDto>> buscarPorCnpj(@PathVariable("cnpj") String cnpj){
@@ -52,5 +49,4 @@ public class EmpresaController {
 		
 		return empresaDto;
 	}
-	
 }
