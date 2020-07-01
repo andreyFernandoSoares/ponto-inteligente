@@ -62,8 +62,7 @@ public class Lancamento implements Serializable{
 		dataCriacao = atual;
 		dataAtualizacao = atual;
 	}
-	
-	
+
 	public Lancamento() {
 	}
 
@@ -121,5 +120,4 @@ public class Lancamento implements Serializable{
 	public void setFuncionario(Funcionario funcionario) {
 		this.funcionario = funcionario;
 	}
-
 }

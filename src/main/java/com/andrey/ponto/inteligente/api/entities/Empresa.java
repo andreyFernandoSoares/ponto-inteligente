@@ -97,7 +97,4 @@ public class Empresa implements Serializable{
 	public void setFuncionarios(List<Funcionario> funcionarios) {
 		this.funcionarios = funcionarios;
 	}
-	
-	
-	
 }
